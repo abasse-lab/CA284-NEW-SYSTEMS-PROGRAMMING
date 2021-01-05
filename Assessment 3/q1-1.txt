@@ -1,0 +1,48 @@
+Strings of character are handled in C by numerous of operations.
+When the compiler assigns a character string to a character array, it will always give a null character which is '\0' at the end of the string.
+Due to this the size should be equal to the maximum number of characters in the string +1.
+An example of this would be char name[20] = "Abasse".
+What this example is saying is that the characters in the variable name should not exceed 25.
+
+strcat() - This function uses two string to concatenate.
+An example of this would be:
+strcat(string1, string2);
+char string1[40] = "Abasse";
+char string2[40] = "Camara";
+Null character is removed when executing.
+When executed string1 will now have: Abasse Camara
+
+strcmp() - This functions compares two strings and will return a value of zero if they are equal.
+An example of this would be:
+strcmp(string1, string2);
+
+char string1[50] = "hello";
+char string2[50] = "hello";
+int x;
+x = strcmp(string1, string2);
+if(x == 0)
+{
+    printf("Equal");
+}
+else
+{
+    printf("Not equal")
+}
+
+strcpy() - This function is basically like a string assignment operator.
+An example of this would be:
+
+char string1[] = "Hello";
+char string2[] = "World";
+strcpy(string1, string2);
+In the example above the character array variable string1 that contains "Hello" will be overwritten with string2 values which is "World".
+
+
+strlen() - This function basically returns the number of characters in a given string.
+
+An example of this would be:
+
+char string1[] = "I am great";
+int length;
+length = strlen(string1);
+printf("%d\n", length);

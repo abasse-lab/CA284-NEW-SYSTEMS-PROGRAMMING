@@ -1,0 +1,27 @@
+Step 1:
+Our program will store the users input using scanf.
+This is a control parameter that is used in various functions to specify the layout of an input string.
+The parameters it will take are words that begin with capital letters you can put as many trailing white spaces as you wish.
+
+Step 2.
+We will declare our function using a function prototype.
+The function we are going to be making is one that checks if the start of each word has a capital letter and gets rid of trailing whitespaces.
+We use function prototypes to tell the compiler about the required datatypes of a function parameter. 
+It also tells us about the return type of the function.
+
+Step 3.
+Our function must return boolean values since it is checking to see if each word has a capital letter so we can differentiate the start and end the inputs.
+
+Step 4:
+When we get our input our program must read in the list of words.
+Once it reads it in we will remove any leading or trailing whitespaces.
+
+Step 5.
+We are assuming that the words the user puts will always start with a capital letter. 
+This will determine the start and end of the word so we can successfully extract it and put it on a new line.
+
+Step 6.
+When done our program will output:
+John
+Jack
+Jill
