@@ -1,0 +1,65 @@
+These are test execution using my makefile but in a local environment. e.g in my zsh mac terminal.
+
+abasse@Abasses-MacBook-Air time complexity % make
+abasse@Abasses-MacBook-Air time complexity % make test
+./main 100
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm: 
+Using 100 integers the time elapsed is 0.000383 seconds
+Heap Sort Algorithm: 
+Using 100 integers the time elapsed is 0.000355 seconds
+Shell Sort Algorithm: 
+Using 100 integers the time elapsed is 0.000279 seconds
+Insertion Sort Algorithm: 
+Using 100 integers the time elapsed is 0.000283 seconds
+./main 500
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm: 
+Using 500 integers the time elapsed is 0.001290 seconds
+Heap Sort Algorithm: 
+Using 500 integers the time elapsed is 0.001398 seconds
+Shell Sort Algorithm: 
+Using 500 integers the time elapsed is 0.001291 seconds
+Insertion Sort Algorithm: 
+Using 500 integers the time elapsed is 0.001167 seconds
+./main 2000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm: 
+Using 2000 integers the time elapsed is 0.006274 seconds
+Heap Sort Algorithm: 
+Using 2000 integers the time elapsed is 0.004782 seconds
+Shell Sort Algorithm: 
+Using 2000 integers the time elapsed is 0.004385 seconds
+Insertion Sort Algorithm: 
+Using 2000 integers the time elapsed is 0.004866 seconds
+./main 30000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm: 
+Using 30000 integers the time elapsed is 0.057465 seconds
+Heap Sort Algorithm: 
+Using 30000 integers the time elapsed is 0.052525 seconds
+Shell Sort Algorithm: 
+Using 30000 integers the time elapsed is 0.048146 seconds
+Insertion Sort Algorithm: 
+Using 30000 integers the time elapsed is 0.047714 seconds
+./main 400000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm: 
+Using 400000 integers the time elapsed is 0.624948 seconds
+Heap Sort Algorithm: 
+Using 400000 integers the time elapsed is 0.685024 seconds
+Shell Sort Algorithm: 
+Using 400000 integers the time elapsed is 0.623367 seconds
+Insertion Sort Algorithm: 
+Using 400000 integers the time elapsed is 0.599233 seconds
+./main 1000000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm: 
+Using 1000000 integers the time elapsed is 1.536736 seconds
+Heap Sort Algorithm: 
+Using 1000000 integers the time elapsed is 1.764901 seconds
+Shell Sort Algorithm: 
+Using 1000000 integers the time elapsed is 1.570952 seconds
+Insertion Sort Algorithm: 
+Using 1000000 integers the time elapsed is 1.479547 seconds
+abasse@Abasses-MacBook-Air time complexity % 

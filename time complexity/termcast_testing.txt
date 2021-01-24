@@ -1,0 +1,63 @@
+camaraa2@razor1:~/2021-ca284-sorting/src $ make
+camaraa2@razor1:~/2021-ca284-sorting/src $ make test
+./main 100
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 100 integers the time elapsed is 0.004777 seconds
+Heap Sort Algorithm:
+Using 100 integers the time elapsed is 0.006610 seconds
+Shell Sort Algorithm:
+Using 100 integers the time elapsed is 0.007244 seconds
+Insertion Sort Algorithm:
+Using 100 integers the time elapsed is 0.007126 seconds
+./main 500
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 500 integers the time elapsed is 0.031764 seconds
+Heap Sort Algorithm:
+Using 500 integers the time elapsed is 0.034563 seconds
+Shell Sort Algorithm:
+Using 500 integers the time elapsed is 0.034140 seconds
+Insertion Sort Algorithm:
+Using 500 integers the time elapsed is 0.032548 seconds
+./main 2000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 2000 integers the time elapsed is 0.127035 seconds
+Heap Sort Algorithm:
+Using 2000 integers the time elapsed is 0.127261 seconds
+Shell Sort Algorithm:
+Using 2000 integers the time elapsed is 0.134036 seconds
+Insertion Sort Algorithm:
+Using 2000 integers the time elapsed is 0.126005 seconds
+./main 30000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 30000 integers the time elapsed is 1.932764 seconds
+Heap Sort Algorithm:
+Using 30000 integers the time elapsed is 1.942751 seconds
+Shell Sort Algorithm:
+Using 30000 integers the time elapsed is 1.942037 seconds
+Insertion Sort Algorithm:
+Using 30000 integers the time elapsed is 1.948955 seconds
+./main 400000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 400000 integers the time elapsed is 24.966356 seconds
+Heap Sort Algorithm:
+Using 400000 integers the time elapsed is 25.486951 seconds
+Shell Sort Algorithm:
+Using 400000 integers the time elapsed is 26.436634 seconds
+Insertion Sort Algorithm:
+Using 400000 integers the time elapsed is 26.998259 seconds
+./main 1000000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 1000000 integers the time elapsed is 63.169715 seconds
+Heap Sort Algorithm:
+Using 1000000 integers the time elapsed is 62.787374 seconds
+Shell Sort Algorithm:
+Using 1000000 integers the time elapsed is 62.202967 seconds
+Insertion Sort Algorithm:
+Using 1000000 integers the time elapsed is 62.697041 seconds
+camaraa2@razor1:~/2021-ca284-sorting/src $

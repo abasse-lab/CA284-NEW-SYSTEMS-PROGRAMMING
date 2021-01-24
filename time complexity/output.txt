@@ -1,0 +1,32 @@
+camaraa2@razor1:~/time_complexity $ make
+camaraa2@razor1:~/time_complexity $ make test
+./main 100
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 100 integers the time elapsed is 0.005067 seconds
+Heap Sort Algorithm:
+Using 100 integers the time elapsed is 0.007322 seconds
+Shell Sort Algorithm:
+Using 100 integers the time elapsed is 0.006148 seconds
+Insertion Sort Algorithm:
+Using 100 integers the time elapsed is 0.006708 seconds
+./main 1000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 1000 integers the time elapsed is 0.061314 seconds
+Heap Sort Algorithm:
+Using 1000 integers the time elapsed is 0.061913 seconds
+Shell Sort Algorithm:
+Using 1000 integers the time elapsed is 0.061802 seconds
+Insertion Sort Algorithm:
+Using 1000 integers the time elapsed is 0.061870 seconds
+./main 1000000
+Memory successfully allocated by the use of calloc.
+Radix Sort Algorithm:
+Using 1000000 integers the time elapsed is 63.249665 seconds
+Heap Sort Algorithm:
+Using 1000000 integers the time elapsed is 63.068086 seconds
+Shell Sort Algorithm:
+Using 1000000 integers the time elapsed is 61.677412 seconds
+Insertion Sort Algorithm:
+Using 1000000 integers the time elapsed is 62.835017 seconds
